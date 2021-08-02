@@ -1,0 +1,2487 @@
+<!DOCTYPE html>
+
+<html lang="es-mx" >
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, maximum-scale=1.0 " /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="theme-color" content="rgb(96,126,19)" /><title>
+
+
+
+</title><link rel="shortcut icon" href="../favicon.ico" />
+
+    <script src="../JS/jquery-1.12.3.js" type="text/javascript"></script>  
+
+    <script type="text/javascript">
+
+        (function (i, s, o, g, r, a, m) {
+
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+            (i[r].q = i[r].q || []).push(arguments)
+
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+
+
+        ga('create', 'UA-84046313-1', 'auto');
+
+        ga('send', 'pageview');
+
+
+
+</script>
+
+   
+
+  
+
+    <link href="../CSS/StyleSheetMain.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css" />
+
+
+
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+    <script type="text/javascript">
+
+
+
+
+
+
+
+  $(document).ready(function($) {
+
+    $('#accordion').find('.accordion-toggle').click(function(){
+
+
+
+      //Expand or collapse this panel
+
+      $(this).next().slideToggle('slow');
+
+
+
+      //Hide the other panels
+
+     $(".accordion-content").not($(this).next()).slideUp('slow');
+
+
+
+    });
+
+  });
+
+
+
+
+
+  $(function () {
+
+      $("#tabs").tabs({ show: { effect: "fade", duration: 900 } });
+
+  });
+
+
+
+
+
+</script>
+
+
+
+
+
+</head>
+
+<body >
+
+     
+
+    <div class="main" style="display:block;">
+
+  <div class="wrapper">
+
+   <input type="radio" name="menu-bar" id="menuOpen" class="menu-inputs">        
+
+   <input type="radio" name="menu-sub" id="close2" class="menu-close"/>
+
+   <input type="radio" name="menu-bar" id="close" class="menu-close"/>
+
+   <input type="radio" name="menu-bar" id="demos" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="menus" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="accesosx" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="alumnos" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="egresado" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="empresario" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="servicios" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="cic4" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="padres" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="calidad" class="menu-inputs"/>   
+
+   <input type="radio" name="menu-sub" id="identidad" class="menu-inputs"/>
+
+  
+
+
+
+   <input type="radio" name="menu-sub" id="oferta" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="ofertaD" class="menu-inputs"/>
+
+
+
+   <input type="radio" name="menu-sub" id="transparencia" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="escolares" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="escolares2" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="reglamentos" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="sector" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="alianzas" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="docentes" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="didet" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="becas" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="becas2" class="menu-inputs"/>
+
+   <input type="radio" name="menu-sub" id="becas3" class="menu-inputs"/>
+
+ 
+
+   <input type="checkbox" name="menu-bar" id="portales" class="menu-inputs"/>
+
+   <input type="checkbox" name="menu-bar3" id="intranet" class="menu-inputs"/>
+
+   <input type="radio" name="menu-bar" id="accesos" class="menu-inputs"/>
+
+
+
+   <input type="radio" name="menu-bar3" id="close3" class="menu-inputs"/>
+
+
+
+   <div class="menu-superior"  >
+
+   <div style="margin: 0 auto; width:100%;">   
+
+   <div class="barra-menu" style="max-width:780px; margin:0 auto;" >
+
+   <div class="barra-menu-interior">
+
+   <ul>
+
+   <li style="list-style:none;"><h1>&nbsp;</h1></li>
+
+                   <li>
+
+                    <label for="accesos">OFERTA EDUCATIVA</label>
+
+                    <label for="close" class="close-menu" id="accesos-close"></label>
+
+                  </li>
+
+                  <li>
+
+                      <img src="../Images/disc-verde.png" />
+
+                  </li>
+
+                   <li>
+
+                      <a id="HyperLink15" href="Default.aspx?gI2Sr=251">CALENDARIO ESCOLAR</a>
+
+                  </li>                  
+
+                   <li ><img src="../Images/disc-verde.png" /></li>                       
+
+                  <li>
+
+                      <a href="http://alumnos.uteq.edu.mx/" target="_blank">PORTAL DE ALUMNOS</a>
+
+                  </li> 
+
+                    <li>
+
+                      <img src="../Images/disc-verde.png" />
+
+                  </li>
+
+                   <li>
+
+                      <a href="http://lizard.uteq.edu.mx/pub/alumnos.php" target="_blank">LIZARD</a>
+
+                  </li>   
+
+                  <li>
+
+                      <img src="../Images/disc-verde.png" />
+
+                  </li>
+
+                   <li>
+
+                      <a href="../Sitios/Idiomas.aspx" >CURSOS DE IDIOMAS</a>
+
+                  </li> 
+
+                  <li>
+
+                      <img src="../Images/disc-verde.png" />
+
+                  </li>
+
+                  <li>                   
+
+                    <label for="intranet">TRANSPARENCIA</label>
+
+                    <label for="close" class="close-menu" id="sub-intranet-close"></label>
+
+                  </li>  
+
+       <li>
+
+                      <img src="../Images/disc-verde.png" />
+
+                  </li>
+
+                  <li>
+
+                      <a href="../ConoceLaUTEQ/Default.aspx?gXr=217" >AVISOS DE PRIVACIDAD</a>
+
+                  </li> 
+
+
+
+              </ul>
+
+           </div>
+
+          </div>
+
+        <div id="sub-intranet" class="menu-sub2" style="z-index:1500; position:relative; ">
+
+           <div class="sub-inner2"  >
+
+				<ul style="left:250px; border:0px solid white; right:20px;">
+
+                    <li>                 
+
+                    <label for="portales">Transparencia Estatal</label>
+
+                    <label for="close" class="close-menu" id="portales-close"></label>                               
+
+                    </li>
+
+                     <li>
+
+                      <img src="../Images/disc-verde.png" />
+
+                  </li>
+
+			      <li>
+
+                      <a id="LkbTransFed" href="../ConoceLaUTEQ/Default.aspx?gXr=191">Transparencia Federal</a>                   
+
+                  </li>
+
+                    <li>
+
+                      <a id="hlContaGub" href="../ConoceLaUTEQ/Default.aspx?gXr=202">Ley de Contabilidad Gubernamental </a>                   
+
+                  </li>
+
+                   <li>
+
+                      <a id="hlDiscipFin" href="../ConoceLaUTEQ/Default.aspx?gXr=203">Ley de Disciplina Financiera de las EF</a>                   
+
+                  </li>
+
+                    <li>
+
+                      <a id="hlSol" href="http://www.plataformadetransparencia.org.mx/web/guest/sac">Solicitudes de Información Pública</a>                   
+
+                  </li> 
+
+
+
+                  
+
+                </ul>
+
+            </div>
+
+
+
+
+
+             <div id="sub-portales" class="menu-sub2" style="z-index:1500; position:relative; ">
+
+           <div class="sub-inner2">
+
+		   		<ul>
+
+			   <li>
+
+                         <a id="LkbTransFed2" href="../ConoceLaUTEQ/Default.aspx?gXr=146">Artículo 66</a>                 
+
+                    </li>
+
+                     <li>
+
+                      <img src="../Images/disc-verde.png" />
+
+                  </li>
+
+			      <li>
+
+                      <a id="HyperLink54e" href="../ConoceLaUTEQ/Default.aspx?gXr=90">Artículo 67</a>                   
+
+                  </li>          
+
+                </ul>
+
+           </div>
+
+       </div>
+
+
+
+
+
+       </div>
+
+      
+
+      
+
+        <div id="sub-accesos" class="menu-sub2" style="z-index:1500; position:relative; ">
+
+           <div class="sub-inner2">
+
+				<ul>
+
+			      <li><a href="http://consumibles.uteq.edu.mx/" target="_blank">Sistema de Consumibles (PA)</a></li>
+
+                    <li ><img src="../Images/disc-verde.png" /></li> 
+
+                   <li><a href="http://bsc.uteq.edu.mx/" target="_blank">Balanced Scorecard (BSC)</a></li>
+
+                    <li ><img src="../Images/disc-verde.png" /></li> 
+
+                  <li><a href="http://ebc.uteq.edu.mx/" target="_blank">Sistema EBC</a></li> 
+
+                     <li ><img src="../Images/disc-verde.png" /></li> 
+
+                  <li><a href="http://siil1.uteq.edu.mx" target="_blank"> Sistema Integral de Idiomas (SIIL 1)</a></li>                        
+
+                </ul>
+
+               </div>
+
+            </div>
+
+          </div>
+
+       </div>     
+
+      
+
+      <div class="menu-wrap" >
+
+        <div class="menu-wrap-inner" >
+
+        
+
+
+
+        <div class="logo">  
+
+            <a href="/"><img src="../Images/Logo UTEQ blanco.png"  id="logo"/></a>
+
+	    </div>       
+
+
+
+   		<div class="menu-bar">
+
+			<div class="menu-bar-inner" id="menu-main" >               
+
+                <ul>
+
+                    <li class="demos" >
+
+                    <label for="demos" style="border-left: 0px solid #f8f8f8;" >CONOCE LA UTEQ</label>
+
+                    <label for="close" class="close-menu" id="demos-close"></label>
+
+                    </li>
+
+
+
+                    <li class="menus"  >
+
+                        <label for="menus"  >ASPIRANTE</label>
+
+                        <label for="close" class="close-menu" id="menus-close"></label>
+
+                    </li>     
+
+
+
+                    <li class="alumnos">                        
+
+                       <label for="alumnos">ALUMNO</label>
+
+                       <label for="close" class="close-menu" id="alumnos-close"></label>
+
+                    </li>      
+
+
+
+                    <li  class="padres" >
+
+                       <label for="padres">PADRES DE FAMILIA</label>
+
+                       <label for="close" class="close-menu" id="padres-close"></label>
+
+                    </li> 
+
+                 
+
+                    <li  class="egresado"> 
+
+                       <label for="egresado" >EGRESADO</label>
+
+                       <label for="close" class="close-menu" id="egresado-close"></label>
+
+
+
+                    </li>
+
+
+
+                     <li  class="empresario"> 
+
+                         <label for="empresario" >EMPRESARIO</label>
+
+                       <label for="close" class="close-menu" id="empresario-close"></label>
+
+
+
+                    </li>
+
+
+
+                     <li  class="servicios">
+
+                          <label for="servicios">NUESTRAS CAPACIDADES</label>
+
+                       <label for="close" class="close-menu" id="servicios-close"></label>
+
+
+
+                    </li>     
+
+                    
+
+                     <li  class="cic4" style="border:none; ">
+
+                         
+
+                        <a id="HyperLink546" href="../CIC4/Default.aspx?gC2Sr=113">
+
+                         <label for="cic40" style="border-right: 0px solid #f8f8f8;" >CIC 4.0</label> 
+
+                         <label for="close" class="close-menu" id="cic4-close"></label>
+
+                         </a>                       
+
+                    </li>    
+
+                    
+
+                     <li  class="accesosx" style="border:none; padding-bottom:10px; ">
+
+                         
+
+                     
+
+                         <label for="accesosx" style="border-right: 0px solid #f8f8f8;" >ACCESOS</label> 
+
+                         <label for="close" class="close-menu" id="accesosx-close"></label>
+
+                                           
+
+                    </li>             
+
+
+
+                </ul>
+
+                
+
+                </div>
+
+                
+
+	
+
+            </div>
+
+
+
+        <div class="menu-bars" >                      
+
+	                    <label  for="menuOpen" ><img src="../Images/bars-menu.png" width="20" /></label>
+
+                         <label for="close" class="close-menu" id="bars-close"></label>  
+
+                       
+
+        </div> 
+
+
+
+	
+
+            </div>
+
+
+
+		<div id="sub-demos" class="menu-sub">
+
+       
+
+			<div class="sub-inner">
+
+				<ul>
+
+			      <li><a id="hfConoceLaUteq" href="../ConoceLaUTEQ/Default.aspx?gXr=38">Historia</a></li>
+
+                  <li><a id="HyperLink6" href="../ConoceLaUTEQ/LienaDelTiempo.aspx">Línea del Tiempo</a></li>
+
+                  <li><a id="hlMision" href="../ConoceLaUTEQ/Default.aspx?gXr=35">Misión, Visión, Valores y Objetivos</a></li>                  
+
+                  <li><a id="hlDirectorio" href="../ConoceLaUTEQ/Default.aspx?gXr=39">Directorio</a></li>
+
+                  <li><a id="hlkContraloriax" href="../ConoceLaUTEQ/Default.aspx?gXr=180">Contraloría Social</a></li>  
+
+                  <li class="calidad" ><label for="calidad" >Calidad UTEQ</label><label for="close2" class="close-menu" id="calidad-close"></label>
+
+
+
+                  </li>                
+
+                  <li><a id="hlMapa" href="../ConoceLaUTEQ/MapaUTEQ.aspx">Mapa</a></li>
+
+                    <li><a id="hlMapaInteractivo" href="../files/Mapa_interactivo_UTEQ_servicios_2020.pdf" target="_blank">Mapa Interactivo</a></li>
+
+                  <li>
+
+                      <a id="hlComoLlegar" href="../ConoceLaUTEQ/Default.aspx?gXr=43">¿Cómo llegar a la UTEQ?</a>
+
+                              
+
+                 <li> <a id="HyperLink2" href="../ConoceLaUTEQ/Default.aspx?gXr=100">Modelo Educativo</a></li>
+
+
+
+                    <li class="identidad" >
+
+                          <label for="identidad" >Identidad Institucional</label>
+
+                       <label for="close2" class="close-menu" id="identidad-close"></label>
+
+
+
+                  </li>     
+
+
+
+				</ul>
+
+			</div>
+
+             <div id="sub-calidad" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="hlCertificaciones" href="../ConoceLaUTEQ/Default.aspx?gXr=41">Sistema de Gestión de Calidad</a></li>
+
+                    <li style="width:400px;"> <a id="hlSGC" href="../ConoceLaUTEQ/Default.aspx?gXr=99">Certificación y Acreditación de Programas Educativos</a></li>        
+
+			
+
+				</ul>
+
+			</div>
+
+		</div>
+
+
+
+             <div id="sub-identidad" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+		<li style="width:auto;"><a id="hlManualIdentidad" href="../ConoceLaUTEQ/Default.aspx?gXr=97">Manual de Identidad</a></li>
+
+        <li><a id="hlGaleria" href="../Noticias/Galeria.aspx">Galeria</a></li>			
+
+		</ul>
+
+		</div>
+
+		</div>
+
+
+
+       
+
+		</div>
+
+
+
+		<div id="sub-menus" class="menu-sub">
+
+			<div class="sub-inner">
+
+				<ul> 
+
+                    
+
+                      <li class="oferta" >
+
+                          <label for="oferta" >Oferta Educativa</label>
+
+                       <label for="close2" class="close-menu" id="oferta-close"></label>
+
+
+
+                  </li>     
+
+                   <li>
+
+                       <a id="hlAdmisiones" href="../Aspirante/Default.aspx?gI2Sr=52">Admisiones</a>
+
+                   </li>
+
+                     <li class="becas2">
+
+                      
+
+                           <label for="becas2" >Becas</label>
+
+                       <label for="close2" class="close-menu" id="becas2-close"></label>
+
+                   </li>                      
+
+                     <li>
+
+                       <a id="hlModelo" href="../Aspirante/Default.aspx?gI2Sr=100">Modelo Educativo</a>
+
+                   </li>  
+
+                    <li>
+
+                       <a id="hlTalentos" href="../Aspirante/Default.aspx?gI2Sr=88">Programa Talentos</a>
+
+                   </li>                 
+
+				    <li>
+
+                       <a id="hlEstancia" href="../Aspirante/Default.aspx?gI2Sr=120">Bachillerato Universitario</a>
+
+                   </li>  	
+
+                    
+
+                     <li>
+
+                       <a id="hlexani" href="../Aspirante/Default.aspx?gI2Sr=132">Criterios de Selección</a>
+
+                   </li>   
+
+                     <li>
+
+                       
+
+                   </li>  
+
+
+
+				</ul>
+
+			</div>
+
+              <div id="sub-oferta" class="menu-sub"  style="background-color:transparent; ">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-innerx"  > 
+
+
+
+                <div class="oferta-content" style="visibility:hidden;display:none; " >
+
+
+
+               <div style="margin:0 auto;"> <h2 style="font-family:'Century Gothic'; color:dimgrey;  font-weight:bold; ">EN ACTUALIZACIÓN</h2></div>
+
+
+
+                </div>
+
+                
+
+                <div class="oferta-content" style="margin-bottom:2px;" id="oferta-row1" >
+
+                        
+
+                  <div style="width:50%; padding:3px; margin-left:2px; border:1px dotted #2d64ae; height:215px;" id="oferta-dea">
+
+                    <div style="display:inline-flex; width:100%; align-items:center;" >
+
+                        <div style="width:45%; padding:3px; ">
+
+                     <div style="  background-image:url('../Images/dea-arrow.png'); background-position:right; background-repeat:no-repeat;">
+
+                    <h3><span style="color:#17a5bc;">TSU</span> en Administración<br />
+
+                    <a id="HyperLink41" href="../Aspirante/Default.aspx?gI2Sr=199">Área Capital Humano</a>
+
+                    </h3>
+
+                         </div>
+
+                     <div style=" background-image:url('../Images/dea-arrow.png'); background-position:right; background-repeat:no-repeat;">
+
+                         <h3><span style="color:#17a5bc;">TSU</span> en Desarrollo de Negocios<br />
+
+                    <a id="HyperLink51" href="../Aspirante/Default.aspx?gI2Sr=200">Área Servicios Posventa Automotriz</a><br />
+
+                           <a id="HyperLink52" href="../Aspirante/Default.aspx?gI2Sr=201">Área Mercadotecnia</a>
+
+                    </h3>
+
+
+
+                    </div>
+
+                            </div>
+
+                    <div style="width:45%; padding:3px; padding-bottom:16px;  margin-left:10px; ">
+
+                       <a id="HyperLink38" href="../Aspirante/Default.aspx?gI2Sr=231"><h3>Continuidad a <br /> <span style="color:#17a5bc;"> Licenciatura</span> en Gestión del Capital Humano</h3></a>
+
+                      <a id="HyperLink42" href="../Aspirante/Default.aspx?gI2Sr=230"><h3>Continuidad a <br /> <span style="color:#17a5bc;"> Licenciatura</span> en Innovación de Negocios y Mercadotecnia</h3></a>
+
+                    </div>
+
+
+
+                    </div>
+
+                   
+
+                 <div style="display:inline-flex; width:100%; align-items:center;" >  
+
+                     <div style="width:45%; padding:3px;   background-image:url('../Images/dea-arrow.png'); background-position:right; background-repeat:no-repeat;">    
+
+                 <h3><span style="color:#17a5bc;">TSU</span> en Logística<br />
+
+                    <a id="HyperLink43" href="../Aspirante/Default.aspx?gI2Sr=18">Área Cadena de Suministros</a><br />
+
+                    
+
+                </h3>
+
+                         </div>
+
+                     <div  style="width:45%; padding:3px; margin-left:10px;">
+
+                         <a id="HyperLink45" href="../Aspirante/Default.aspx?gI2Sr=235"><h3>Continuidad a <br /> <span style="color:#17a5bc;"> Licenciatura</span> en Diseño y Gestión de Redes Logísticas</h3></a>
+
+                     </div>
+
+                     </div>
+
+                    </div>
+
+
+
+
+
+                  <div style="width:50%; padding:3px; margin-left:2px; border:1px dotted #ed6825; height:215px;" id="oferta-di">
+
+                    <div style="display:inline-flex; width:100%; align-items:initial;" >
+
+                     <div style="width:45%; padding:3px;   background-image:url('../Images/industrial-arrow.png'); background-position:right; background-repeat:no-repeat;">
+
+                    <h3><span style="color:#ed6825;">TSU</span> en Mantenimiento<br />
+
+                    <a id="HyperLink46" href="../Aspirante/Default.aspx?gI2Sr=23">Área Industrial</a>
+
+                    </h3>
+
+                    </div>
+
+                    <div style="width:45%; padding:3px;  margin-left:10px; ">
+
+                      <a id="HyperLink47" href="../Aspirante/Default.aspx?gI2Sr=11"><h3>Continuidad a <br /> <span style="color:#ed6825;"> Ingeniería</span> en Mantenimiento Industrial</h3></a>
+
+                    </div>
+
+
+
+                    </div>
+
+
+
+                     <div style="display:inline-flex; width:100%; align-items:center;" >
+
+                     <div style="width:45%; padding:3px;   background-image:url('../Images/industrial-arrow.png'); background-position:right; background-repeat:no-repeat;">
+
+                    <h3><span style="color:#ed6825;">TSU</span> en Nanotecnología<br />
+
+                    <a id="HyperLink44" href="../Aspirante/Default.aspx?gI2Sr=15">Área Materiales</a>
+
+                    </h3>
+
+                    </div>
+
+                    <div style="width:45%; padding:3px;  margin-left:10px; ">
+
+                      <a id="HyperLink53" href="../Aspirante/Default.aspx?gI2Sr=12"><h3>Continuidad a <br /> <span style="color:#ed6825;"> Ingeniería</span> en Nanotecnología</h3></a>
+
+                    </div>
+
+
+
+                    </div>
+
+                   
+
+                 <div style="display:inline-flex; width:100%; align-items:center;" >  
+
+                     <div style="width:45%; padding:3px;   background-image:url('../Images/industrial-arrow.png'); background-position:right; background-repeat:no-repeat;">    
+
+                 <h3><span style="color:#ed6825;">TSU</span> en Procesos Industriales<br />
+
+                    <a id="HyperLink48" href="../Aspirante/Default.aspx?gI2Sr=21">Área Manufactura</a><br />
+
+                     <a id="HyperLink49" href="../Aspirante/Default.aspx?gI2Sr=24">Área Plásticos</a>
+
+                </h3>
+
+                         </div>
+
+                     <div  style="width:45%; padding:3px; margin-left:10px;">
+
+                         <a id="HyperLink50" href="../Aspirante/Default.aspx?gI2Sr=13"><h3>Continuidad a <br /> <span style="color:#ed6825;"> Ingeniería</span> Industrial</h3></a>
+
+                     </div>
+
+                     </div>                     
+
+                      
+
+                      
+
+                    <div style="display:inline-flex; width:100%; align-items:center;" >  
+
+                     <div style="width:45%;  padding:3px;   background-image:url('../Images/industrial-arrow.png'); background-position:right; background-repeat:no-repeat;">   
+
+                 <h3><span style="color:#ed6825;">TSU</span> en Mecánica<br />
+
+                    <a id="HyperLink540" href="../Aspirante/Default.aspx?gI2Sr=196">Área Automotriz</a><br />
+
+                    <a id="HyperLink954" href="../Aspirante/Default.aspx?gI2Sr=214">Área Moldes y Troqueles</a>
+
+                </h3>
+
+                          </div>
+
+                        
+
+                 
+
+                           <div style="width:45%; padding:3px; margin-left:10px; background-image:url('../Images/nueva_carrera.jpg'); background-position-x:103%; background-position-y:17%; background-repeat:no-repeat;">    
+
+                       <h3>Continuidad a <br /><a id="hlmm" href="../Aspirante/Default.aspx?gI2Sr=249"><span style="color:#ed6825;">Ingeniería</span> Metal Mecánica<br /></a>
+
+                  
+
+
+
+                </h3>
+
+                     </div>
+
+                     </div>       
+
+                                         
+
+              </div>
+
+
+
+                </div>	
+
+
+
+                <div class="oferta-content" id="oferta-row2" >
+
+                 <div style="width:50%; padding-right:3px; margin-left:2px;  border:1px dotted transparent;" id="oferta-ambiental" > 
+
+                <div style="width:100%; border-right:1px solid #fff; padding:3px; margin-bottom:1px; padding-right:0px;  border:1px dotted #9ec74c; height:110px;" id="oferta-amb0" >
+
+
+
+
+
+
+
+                    <div style="display:inline-flex; width:100%; align-items:center;" >
+
+                     
+
+                        
+
+                        
+
+                        <div style="width:45%; padding:3px;   background-image:url('../Images/ambiental-arrow.png'); background-position:right; background-repeat:no-repeat;">
+
+                    <h3><span style="color:#9ec74c;">TSU</span> en Química<br />
+
+                    <a id="hlQTA" href="../Aspirante/Default.aspx?gI2Sr=25">Área Tecnología Ambiental</a>
+
+                    </h3>
+
+                    </div>
+
+                     <div style="width:45%; padding:3px;  margin-left:10px; ">
+
+                      <a id="HyperLink34" href="../Aspirante/Default.aspx?gI2Sr=8"><h3>Continuidad a <br /> <span style="color:#9ec74c;"> Ingeniería</span> Ambiental</h3></a>
+
+                    </div>       
+
+                    
+
+                    </div>
+
+                   
+
+                 <div style="display:inline-flex; width:100%; align-items:center;" >  
+
+                     <div style="width:45%; padding:3px;   background-image:url('../Images/ambiental-arrow.png'); background-position:right; background-repeat:no-repeat;">    
+
+                 <h3><span style="color:#9ec74c;">TSU</span> en Energías Renovables<br />
+
+                    <a id="HyperLink32" href="../Aspirante/Default.aspx?gI2Sr=27">Área Energía Solar</a><br />
+
+                     <a id="HyperLink33" href="../Aspirante/Default.aspx?gI2Sr=26">Área Calidad y Ahorro de Energía</a>
+
+                </h3>
+
+                         </div>
+
+                     <div  style="width:45%; padding:3px; margin-left:10px;">
+
+                         <a id="HyperLink35" href="../Aspirante/Default.aspx?gI2Sr=9"><h3>Continuidad a <br /> <span style="color:#9ec74c;"> Ingeniería</span> en Energías Renovables</h3></a>
+
+                     </div>
+
+                     </div>           
+
+                    </div>    
+
+                <div style="width:100%;  padding:3px; padding-right:0px; border:1px dotted #e93b7a; height:70px;">
+
+
+
+                    <div style="width:100%; padding:3px; padding-top:10px;  background-image:url('../Images/nueva_carrera.jpg'); background-position-x:63%; background-position-y:63%; background-repeat:no-repeat;">
+
+                    <h3>
+
+                    <a id="HyperLink5400" href="../Aspirante/Default.aspx?gI2Sr=197"><span style="color:#e93b7a;">TSU</span> en Lengua Inglesa.</a>
+
+                    </h3>
+
+                    </div>
+
+                    
+
+                </div>    
+
+                   </div>    
+
+
+
+
+
+                  <div style="width:50%; padding:3px; margin-left:2px; border:1px dotted #17a5bc;  height:190px;" id="oferta-dtai">
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          <div style="display:inline-flex; width:100%; align-items:initial;" >
+
+                     <div style="width:45%; padding:3px;   background-image:url('../Images/dtai-arrow.png'); background-position:right; background-repeat:no-repeat;">
+
+                    <h3><span style="color:#2d64ae;">TSU</span> en Mecatrónica<br />
+
+                    <a id="HyperLink554" href="../Aspirante/Default.aspx?gI2Sr=22">Área Automatización</a>
+
+                    </h3>
+
+                    </div>
+
+                    <div style="width:45%; padding:3px;  margin-left:10px; ">
+
+                      <a id="HyperLink5s5" href="../Aspirante/Default.aspx?gI2Sr=14"><h3>Continuidad a <br /> <span style="color:#2d64ae;"> Ingeniería</span> en Tecnologías de Automatización</h3></a>
+
+                    </div>
+
+
+
+                    </div>
+
+                   
+
+                 <div style="display:inline-flex; width:100%; align-items:center;" >  
+
+                     <div style="width:38%; padding:3px;    ">    
+
+                 <h3><span style="color:#2d64ae;">TSU</span> en Tecnologías de la Información<br />
+
+                    <a id="HyperLink58" href="../Aspirante/Default.aspx?gI2Sr=222">Área Desarrollo de Software Multiplataforma</a><br />  <br />
+
+                     <a id="HyperLink59" href="../Aspirante/Default.aspx?gI2Sr=221">Área Infraestructura de Redes <br/> Digitales</a>
+
+                </h3>
+
+                         </div>
+
+                     <div  style="width:52%; padding-top:20px; padding:3px;  margin-left:10px; ">
+
+                           <br />  <br />
+
+                       <div style="background-image:url('../Images/dtai-arrow.png');padding-left:39px; background-position:left; background-repeat:no-repeat;">  <a id="HyperLink60" href="../Aspirante/Default.aspx?gI2Sr=242"><h3>Continuidad a <br /> <span style="color:#2d64ae;"> Ingeniería</span> en Desarrollo y Gestión de Software</h3></a>
+
+                       </div>
+
+                       <div style="background-image:url('../Images/dtai-arrow.png'); padding-left:39px; background-position:left; background-repeat:no-repeat;">  <a id="HyperLink36" href="../Aspirante/Default.aspx?gI2Sr=243"><h3>Continuidad a <br /> <span style="color:#2d64ae;"> Ingeniería</span> en Redes Inteligentes y Ciberseguridad</h3></a>
+
+                       </div>
+
+                     </div>
+
+
+
+                     </div>      
+
+
+
+               
+
+                    </div>              
+
+                </div>		
+
+
+
+                  <div style="display:inline-flex; width:99%; align-items:center; border:1px dotted #000; padding:3px; margin:3px; " >  
+
+                     <div style="width:100%; padding:3px;  background-color:#fff; ">    
+
+                 <h3>POSGRADOS<br />
+
+                     <a href="https://www.uteq.edu.mx/Aspirante/Default.aspx?gI2Sr=240" target="_blank"><span style="color:rgb(215, 206, 66);">Maestría </span> en Ingeniería para la Manufactura Inteligente </a> </h3>
+
+                        
+
+                      <h3><a href="https://www.uteq.edu.mx/Aspirante/Default.aspx?gI2Sr=250" target="_blank"><span style="color:rgb(215, 206, 66);">Maestría </span> en Economía Circular </a><br /></h3>
+
+               
+
+                         </div>
+
+               
+
+                     </div>      
+
+
+
+              
+
+               
+
+                     </div> 
+
+             </div>
+
+
+
+   		
+
+
+
+
+
+              <div id="sub-becas2" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="HyperLink23" href="../Aspirante/Default.aspx?gI2Sr=118">Becas Institucionales</a></li>
+
+                    <li><a id="HyperLink24" href="../Aspirante/Default.aspx?gI2Sr=119">Becas Externas</a></li>
+
+			
+
+				</ul>
+
+			</div>
+
+		</div>
+
+
+
+
+
+          </div>
+
+
+
+		
+
+
+
+        <div id="sub-alumnos" class="menu-sub">
+
+			<div class="sub-inner">
+
+				<ul  >
+
+                   <li class="escolares">  <label for="escolares" >Servicios Escolares</label>
+
+                       <label for="close2" class="close-menu" id="escolares-close"></label>
+
+                    </li>
+
+
+
+                <li><a id="hlDeportivas" href="Default.aspx?gI2Sr=149">Actividades Deportivas</a></li>               
+
+				<li><a id="hlCulturales" href="Default.aspx?gI2Sr=253">Actividades Culturales</a></li> 
+
+                <li class="becas">
+
+                   
+
+                      <label for="becas" >Becas</label>
+
+                       <label for="close2" class="close-menu" id="becas-close"></label>
+
+
+
+                </li> 
+
+                <li><a id="hlMovilidad" href="Default.aspx?gI2Sr=121">Movilidad</a></li> 
+
+                <li><a id="hlEstadias" href="Default.aspx?gI2Sr=124">Estadías</a></li> 
+
+                <li><a id="hlVisitas" href="Default.aspx?gI2Sr=125">Visitas a Empresas</a></li> 
+
+            
+
+                <li><a id="hlRedJusticiaPaz" href="Default.aspx?gI2Sr=128">Red de Justicia y Paz</a></li>                    
+
+                <li><a id="hlReglamentos" href="Default.aspx?gI2Sr=103">Reglamentos</a>
+
+                </li>
+
+
+
+                     <li><a id="hlCalendario" href="Default.aspx?gI2Sr=251">Calendario</a></li>               
+
+				<li><a id="hlServicioSocial" href="Default.aspx?gI2Sr=127">Servicio Social</a></li> 
+
+
+
+                <li><a id="hlIdiomas" href="../Sitios/Idiomas.aspx">Idiomas</a></li> 
+
+                  <li><a id="HyperLink5" href="Default.aspx?gI2Sr=232">Biblioteca</a></li>         			
+
+				</ul>
+
+			</div>
+
+            <div id="sub-escolares" class="menu-sub" style="background-color:transparent;">
+
+            <div style="width:1014px; margin:0 auto; height:2px; background-color:green; ">
+
+            </div>
+
+                <br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="hlReisncriociones" href="Default.aspx?gI2Sr=101">Reinscripción</a></li>
+
+                    <li><a id="hlReincorporacion" href="Default.aspx?gI2Sr=102">Reincorporación</a></li>
+
+			        <li><a id="hlTitTsu" href="Default.aspx?gI2Sr=192">Titulación TSU</a></li>
+
+                    <li><a id="hlTitIng" href="Default.aspx?gI2Sr=193">Titulación INGENIERÍAS</a></li>
+
+				    <li><a id="hlGuiasEstIng" href="Default.aspx?gI2Sr=55">Otros Servicios</a></li>
+
+                    <li><a id="HyperLink5432" href="Default.aspx?gI2Sr=208">Cuotas por Servicios Académicos</a></li>
+
+                     <li><a id="hlDirectorioServ" href="DirectorioSE.aspx">Directorio de Servicios</a></li>
+
+                </ul>
+
+			</div>
+
+		</div>
+
+
+
+             <div id="sub-reglamentos" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="hlAcademico">Académico</a></li>
+
+                    <li><a id="hlLaboratorios" href="../Content/Files/Laboratorios.pdf">Laboratorios</a></li>
+
+			        <li><a id="hlBiblioteca">Biblioteca</a></li>                   
+
+                </ul>
+
+			</div>
+
+		</div>
+
+
+
+
+
+        <div id="sub-becas" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="HyperLink25" href="Default.aspx?gI2Sr=118">Becas Instituacionales</a></li>
+
+                    <li><a id="HyperLink26" href="Default.aspx?gI2Sr=119">Becas Externas</a></li>
+
+			
+
+				</ul>
+
+			</div>
+
+		</div>
+
+		</div>
+
+
+
+        <div id="sub-egresado" class="menu-sub">
+
+			<div class="sub-inner">
+
+				<ul>               
+
+					<li><a id="hlBolsa" href="http://www.uteq.edu.mx/Sitios/BolsaDeTrabajo.aspx">Bolsa de Trabajo</a></li>
+
+                    <li><a id="hlEducacionCont" href="http://www.uteq.edu.mx/Egresado/Default.aspx?g4Hr=162">Educación Continua</a></li>
+
+			        <li><a id="hlIncubadora" href="../Egresado/Default.aspx?g4Hr=151">Incubadora de Empresas</a></li>
+
+                    <li><a id="hlSeguimientoEgresados" href="../Egresado/Default.aspx?g4Hr=153">Seguimiento a egresados</a></li>	
+
+                    <li><a id="hlIdiomas2" href="../Sitios/Idiomas.aspx">Idiomas</a></li>	
+
+                     <!-- <li><a id="hlDescuentos" href="../Egresado/Default.aspx?g4Hr=210">Descuento para Egresados</a></li>	-->
+
+				</ul>
+
+			</div>
+
+		</div>
+
+
+
+        <div id="sub-empresario" class="menu-sub">
+
+			<div class="sub-inner">
+
+				<ul >               
+
+					  <li class="sector">  
+
+                       <label for="sector" >Servicios al Sector Productivo</label>
+
+                       <label for="close2" class="close-menu" id="sector-close"></label>
+
+                    </li>
+
+                      <li><a id="HyperLink54sd" href="../Egresado/Default.aspx?g4Hr=151">Incubadora de Empresas</a></li>
+
+                    <li><a id="hlAlumnosEstadias" href="http://www.uteq.edu.mx/Empresario/Default.aspx?g4Hr=58">Solicitud Alumnos para Estadías</a></li>
+
+                    <li class="alianzas">  
+
+                       <label for="alianzas" >Alianzas Estratégicas</label>
+
+                       <label for="close2" class="close-menu" id="alianzas-close"></label>
+
+                    </li>      
+
+                    <li><a id="HyperLink4" href="http://www.uteq.edu.mx/Egresado/Default.aspx?g4Hr=162">Educación Continua</a></li>  
+
+                    <li><a id="hlBolsaDeTrabajo" href="http://www.uteq.edu.mx/Sitios/BolsaDeTrabajo.aspx">Bolsa de Trabajo</a></li>
+
+			         
+
+                    <li></li>
+
+                   
+
+                   
+
+                                  				
+
+				</ul>
+
+			</div>
+
+
+
+          <div id="sub-sector" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="max-width:1024px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="hlCursos" href="../Empresario/Default.aspx?g4Hr=137">Centro de evaluación CONOCER</a></li>
+
+                    <li><a id="hlCapacitacion" href="../Empresario/Default.aspx?g4Hr=135">Capacitación y Consultoría</a></li>
+
+                   
+
+			        <li></li>
+
+                    <li><a id="hlEduContinua3" href="http://www.uteq.edu.mx/Empresario/Default.aspx?g4Hr=162">Educación Continua</a></li>
+
+                
+
+                </ul>
+
+			</div>
+
+			</div>
+
+                       
+
+       <div id="sub-alianzas" class="menu-sub" style="background-color:transparent;">
+
+        <div style="max-width:1024px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="hlEricsson" href="../Empresario/Default.aspx?g4Hr=105">Ericsson</a></li>
+
+                    <li><a id="hlPeugeot" href="../Empresario/Default.aspx?g4Hr=104">Peugeot</a></li>
+
+			        <li><a id="hlIntel" href="../Empresario/Default.aspx?g4Hr=107">Intel</a></li>
+
+                    <li><a id="hlPolimeros" href="../Empresario/Default.aspx?g4Hr=106">Polímeros</a></li>
+
+                    <li><a id="hlNcTech" href="../Empresario/Default.aspx?g4Hr=108">NCTech</a></li>
+
+                    <li><a id="hlCleanTech" href="../Empresario/Default.aspx?g4Hr=109">CleanTech</a></li>
+
+                    <li><a id="HyperLink18" href="../Empresario/Default.aspx?g4Hr=110">Proyectos Productivos</a></li>
+
+                    <li><a id="HyperLink19" href="../Empresario/Default.aspx?g4Hr=111">FUMEC</a></li>
+
+               </ul>
+
+		   </div>
+
+		</div>
+
+
+
+
+
+     </div>
+
+
+
+        <div id="sub-servicios" class="menu-sub">
+
+			<div class="sub-inner3">
+
+				<ul>    
+
+                      <li style="width:280px;" class="didet">
+
+                   
+
+                         <label for="didet" >Investigación, Innovación y Desarrollo Tecnológico</label>
+
+                       <label for="close2" class="close-menu" id="didet-close"></label>
+
+                    </li>
+
+                     
+
+		    <li><a id="hlIdiomas3" href="../Sitios/Idiomas.aspx">Idiomas</a></li>
+
+                    <li><a id="hlIncubadora2" href="../Servicios/Default.aspx?gI2Sr=151">Incubadora de Empresas</a></li>
+
+			        <li><a id="hlEduContinua2" href="http://www.uteq.edu.mx/Servicios/Default.aspx?gI2Sr=162">Educación Continua</a></li>
+
+                    <li><a id="hlCursosCapacitacion" href="/Servicios/Default.aspx?gI2Sr=135">Capacitación Técnica</a></li>	
+
+                   
+
+                   <li class="docentes">  
+
+                       <label for="docentes" >Docentes</label>
+
+                       <label for="close2" class="close-menu" id="docentes-close"></label>
+
+                    </li>
+
+                    
+
+                    <li><a id="HyperLink17" href="../Servicios/Default.aspx?gI2Sr=173">Laboratorios</a></li>	
+
+                      <li><a id="HyperLink5x4" href="../Servicios/Default.aspx?gI2Sr=187">Aceleradora de Empresas</a></li>
+
+				</ul>
+
+			</div>
+
+
+
+        <div id="sub-docentes" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div>
+
+                    <br/>  
+
+			<div class="sub-inner3">                 
+
+				<ul>               
+
+					<li><a id="HyperLink12" href="/Servicios/Default.aspx?gI2Sr=139">Cuerpos Académicos</a></li>
+
+                    <li><a id="HyperLink13" href="/Servicios/Default.aspx?gI2Sr=140">Proyectos</a></li>
+
+			        <li><a id="HyperLink14" href="/Servicios/Default.aspx?gI2Sr=141">Sistema Nacional de Investigadores</a></li>                   
+
+				    <li><a id="HyperLink16" href="/Servicios/Default.aspx?gI2Sr=142">Redes Colaborativas</a></li>
+
+                    <li><a id="HyperLink31" href="../Servicios/Default.aspx?gI2Sr=144">Formación</a></li>
+
+                     
+
+                </ul>
+
+			</div>
+
+		</div>
+
+
+
+        <div id="sub-didet" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div>
+
+                    <br/>  
+
+			<div class="sub-inner">                
+
+				<ul>               
+
+					
+
+                    <li><a id="HyperLink21" href="../Servicios/Default.aspx?gI2Sr=112">Proyectos</a></li>
+
+			        <li></li>     
+
+                    <li></li>
+
+                </ul>
+
+			</div>
+
+		</div>
+
+
+
+		</div>
+
+
+
+        <div id="sub-padres" class="menu-sub">
+
+			<div class="sub-inner">
+
+				<ul>               
+
+		             <li class="escolares2">  <label for="escolares2" >Servicios Escolares</label>
+
+                       <label for="close2" class="close-menu" id="escolares2-close"></label>
+
+                    </li>
+
+
+
+                   <li><a id="hlDeportes2" href="../PadresDeFamilia/Default.aspx?gI2Sr=149">Actividades Deportivas</a></li>               
+
+		   <li><a id="hlCulturales2" href="../PadresDeFamilia/Default.aspx?gI2Sr=253">Actividades Culturales</a></li>                   
+
+                   <li class="becas3">
+
+                        <label for="becas3" >Becas</label>
+
+                       <label for="close2" class="close-menu" id="becas3-close"></label>
+
+                   </li> 
+
+                   <li><a id="HyperLink3" href="../PadresDeFamilia/Default.aspx?gI2Sr=122">Movilidad</a></li> 
+
+                   <li><a id="HyperLink11" href="../PadresDeFamilia/Default.aspx?gI2Sr=129">Estadías</a></li> 	
+
+                    <li><a id="HyperLink28" href="../PadresDeFamilia/Default.aspx?gI2Sr=130">Valores</a></li> 					
+
+				</ul>
+
+			</div>
+
+
+
+                
+
+                  <div id="sub-escolares2" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="HyperLink1" href="../PadresDeFamilia/Default.aspx?gI2Sr=101">Reinscripción</a></li>
+
+                    <li><a id="HyperLink7" href="../PadresDeFamilia/Default.aspx?gI2Sr=102">Reincorporación</a></li>
+
+			        <li><a id="HyperLink8" href="../PadresDeFamilia/Default.aspx?gI2Sr=57">Titulación TSU</a></li>
+
+                    <li><a id="HyperLink9" href="../PadresDeFamilia/Default.aspx?gI2Sr=3">Titulación INGENIERÍAS</a></li>
+
+				    <li><a id="HyperLink10" href="../PadresDeFamilia/Default.aspx?gI2Sr=55">Otros Servicios</a></li>
+
+                </ul>
+
+			</div>
+
+		</div>
+
+
+
+
+
+                <div id="sub-becas3" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					<li><a id="HyperLink29" href="../PadresDeFamilia/Default.aspx?gI2Sr=118">Becas Instituacionales</a></li>
+
+                    <li><a id="HyperLink30" href="../PadresDeFamilia/Default.aspx?gI2Sr=119">Becas Externas</a></li>
+
+			
+
+				</ul>
+
+			</div>
+
+		</div>
+
+
+
+
+
+      </div>
+
+
+
+        <div id="sub-cic4" class="menu-sub">
+
+			<div class="sub-inner">
+
+				<ul>               
+
+		           <li><a id="HyperLink27" href="../CIC4/Default.aspx?gC2Sr=113">Objetivo General</a></li> 					
+
+				</ul>
+
+			</div>
+
+          </div>
+
+          </div>
+
+
+
+            <div id="sub-accesosx" class="menu-sub">
+
+			<div class="sub-inner">
+
+				<ul>
+
+                 
+
+                 <!--  <li>
+
+                    <label for="accesos">OFERTA EDUCATIVA</label>
+
+                    <label for="close" class="close-menu" id="accesos2x-close"></label>
+
+                  </li>-->
+
+                 
+
+                   <li>
+
+                      <a id="hlkCalendario2" href="Default.aspx?gI2Sr=251">CALENDARIO ESCOLAR</a>
+
+                  </li>                  
+
+                                     
+
+                  <li>
+
+                      <a href="http://alumnos.uteq.edu.mx/" target="_blank">PORTAL DE ALUMNOS</a>
+
+                  </li> 
+
+                 
+
+                   <li>
+
+                      <a href="../Sitios/Idiomas.aspx" >CURSOS DE IDIOMAS</a>
+
+                  </li> 
+
+                 
+
+                  <li>
+
+                     <label for="transparencia">TRANSPARENCIA</label>
+
+                      <label for="close2" class="close-menu" id="transparencia-close"></label>
+
+                  </li>
+
+                                    
+
+              </ul>
+
+			</div>
+
+                 <div id="sub-transparencia" class="menu-sub" style="background-color:transparent;">
+
+                   <div style="width:1014px; margin:0 auto; height:2px; background-color:green; "></div><br />  
+
+			<div class="sub-inner">                 
+
+				<ul>               
+
+					 <li><a id="hlkTransFed" href="../ConoceLaUTEQ/Default.aspx?gXr=179">Transparencia Federal</a></li>
+
+                  
+
+                    <li><a id="hlkContrasoc" href="../ConoceLaUTEQ/Default.aspx?gXr=180">Contraloría Social</a> </li>  
+
+			
+
+				</ul>
+
+			</div>
+
+		</div>
+
+
+
+          </div>
+
+
+
+         
+
+
+
+
+
+        
+
+      </div>
+
+      </div>
+
+    <div class="menu-spacer" >
+
+
+
+    </div>
+
+      
+
+
+
+    <form method="post" action="./Default.aspx?gI2Sr=73" id="form1">
+
+<div class="aspNetHidden">
+
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="l+lIlYkAiohkV686AlRzY6LL3nZCvLfaIsJWeRdcIR20w64NIuaBM+3/i5Af1mKt7tf1QQSTGY4lHSk9wZwSe5/p2lx2a5MrF6MNPGTVyGgsr4ti2rimHrb9XXjPKINBVLn8h6057YZP/VBeGnkaLJdgsaz7elBxrN+daeA0DY7uFJ0HRfUhJ7kuukoujqtFUwlynQn0sM/7EREYAf7TIygZCBW3vAEr8UnAwh582KcxJPL2McN6+D+XQP8VJNEHCiTWJzMbSgyiPnXxfhkC6biAlaKbqGgiNqBh1r5ZYOMIjBkpUB7f/12RsQTPO3ep1tR2pT6LJJhiBEq+MTVkE8s1SikbE/rm4x5u9FOTTaK1ebaiHZVAFmefRjKIZvn4fUwJRTRPRvmiCz3ifoqok9wLInUNL74xmv3ptdubBJsPFazI7rLW7dOkDAzrH5PkpivaOK1b2rPMLB3b9XLB5/cZ7kPvaHc8ETIeMxKEmhq+ftyNg+rEB9oPVAjpypPWdqqlfdbOnGkNo1/7Nyl+SZb8ePhcWSfIawAS66WNzNF7fSex4IGS87rDUCysluw6Rb36Iube3Sc2nAIhqAuRQPFMPfJx1d1TWeWBnM1W2nM7RJHXsjhqffbwRkPA5xmHDVDFsFCPbwloW0amVknoqgmH5rZuUsnfRTNY+PCH0p8At/qeCvp131Z7pRo1DGL+bpggCDvG/cQBnfNAAQGvqegAhsA6syMa3Xcl0Jn3SuqoRFfkwblvVx/2EwaL8hTksGawQ1mhw5IopgBWOHTcsaN9DsPQPfuQNNjaEuxRJkmc3FiNh4f8HBQZvs6yu+D3LAotYUT8AU64RmFSbHRPysr2GC8yF8BdG17B+9bXhB1LlyNrD1noXPYojia4PU+dWl+IWxM94yhb/nC52GdN6tBG+hr8C+3sHaqH6SQ2N8ccd/nCQpnmpRq7/SD9Uw3wk8mlcEdcmxS2Lv/PGZl47KfA9jDs9W1+Z3x8lsLGQNdsLQCu9ZGu1VSiBB65jT1xtrzoIUaSalsBZNtSztjJvIqUK6ZPkk+hoeveiujbTjiYBd4P9w+NL5ll7PlU47UUqYJffqoFSSWqPuw7fqSspeD7+AF420gcQhZjcbH3qhDuW8/EYq9uL3vmUqv9Hu+ZqASbRY9oqd9h6KswkA1HxlkcoP/Pm+OGN6uPcsQ/mN7so6xe463Xlufuix21Ad7QUXtwpLng7F6nH0/Ms2xy/UV0iMC0wEy+SEYWQkakKXgpNksuHqviiBDjwdoIqe0ZNWGPXyYVKf0yJsOyRsRP0fI3oTJtOwWVNqWbCwceWB0W0KDnfF/UkV8kv3j61RMIw9W8t2wkPFNGNdhCbmkKst3zeYZa9uPpPCflw87xeuJvt0Ed8TtaHQZwYPuHSyVRIDTWEN8SL0rbLeCMuErOvdBVW4J8+VkHqIc6xzFEoMRnZ8SbvTZhceqMqTplGaQEOGVsBBq0Q9c6W2FGZ7moPVOmUcQngveWNWFuX2hdrGAWSR8g9QjA6Nkv+dm2W8W+JtMY6CIjp99wG7qD/+J5AuppAq8CsPXgMCg2nTrKUKpD3N/3HBRRCtA7ZRU0ne1WzrC3Q7eUIcfCuBn6o5bPIxDNOTyr7S31HQFAUwbP6kysOvlvc0MvShbEa02mD61ssU6wQTOwHHonL0pBZ2awgUSIobjSB6VtUKqGOQswZ1MD8xVsSOqEeR/dwjPmRdgie83bQ26fjVRsM0LlzC7FQwxzTvqSca65A2DDzL3r9X0M+btTnFHfCX0Ru/2qAqNp7KZT7tm6PfXk/jLJ/dQweg2XhM4oqvFFqCngwtK672IhGPJOH2s2hAMQoGgdelrS/dhNXdTVVlIHg2JQ7dVGwRraZfnxZpjjNhu/wDKo9cYKg0Iu/aA9wqJ8AYGeb2xEDIM6zJ1xVZOfo8qsiNSXzI9HF25nXflb75OAQ3j+RWvNkMVX5uGCrX6qMbYArkpmeU65LOpltYC+pc+FQ+PcrI2x0Bntb9fCOt4ZsMyqD3K5MalUludenBU4iXBpc+RpzkHfNO0lYS/nbDGUIcgPYaTL6ue97rVivSWoNFm/vRQSMh2VmZsBWQ/+CygptYF3UqecHZzSaSBryKElrYiCcuVGY+GEbLMCvffjZ3C3E/mBH0r3P1FcuQpt2TAh6ZlAl2yGnhw3CTgWKmn2KcKyIob5PyxeYyPIOPEdWFyGuNfec30KDN8ZNoYNqt51V/CeiyJwv04uXA99stZ9FNM/anbJHlYE5zr8xKZ+RKEdFHMjpjSSbq2TDyvBbvrUqNCluWRqa9FLRzS8cH3GhWp6ERLn5pAVHj6DmTD4nYHw99W38mNOQuxH3IdoRNouyW2n+h5Qn5glVYT6IE7AUfhrhMvjz/GNLve/WcOFyyniAKQAMhSi2RJpwpl6aAIcjd9lvtrxAK3E+ph5SKwBimqMU82GYthVm5m/Z52q0HgDNG7JGifUYvpQJvasWx9PRzzCjwq9e3/OEfnCMeNDXN/k+UTY0aB3TdjlswvIO774mzlXUQzfjYhzUx5g4zj1oqeHgelhNqzr/U9CFEdAiWr2rrPS7KZF4ZUjDN8Nuz6cm/nHCW0sXD1gdTQ9p2RKYc1Yhpz5P7G3n7l1Rk5qLfa3HfYJ3aW93JPUteJHYmNNW4YPTEWeDAnBqt6SCE8shUZ4dzi5ph1G4R0M3lrlGG5YZDQFWmXCwUvPCd9V+g1WT7NdJgfoq4KHpmre0tcZg7n40aZqRiQ5FTdwlBzL7bqA84f1GVHDC/ABeSS3MLMoH07Egpnl2pYfl2rx4dbt7nBlb++O5IrLFfxJy4SKyy4JAOG9AzeZXCElPCsZ91+axu5csVCrjzrb6GhTQEYxEvdIOBaDbNjQ9cbkWK3DORo0t0iXj2Jcor659gVvmi59uhEnUqbo5wK47tR+KmbBFVXX06cC2nw1MphJn+bgVtWWxzZACoDjLqcO5Dm3OzCFOE5np801uUjhxY2FQaYqGSgsnXZMbML0pQehT69dhk1xkZ0CfslzEIMIYUFVlkNL1yac+ZCP51Yhefu9o6wRFvBfB5xKF/nnqwNUBCA5iqHakVDU71tHKBe11lrcS1Gjsv9Kd6XYlP2lxSirv7yfzzYilKvbSAhwWJkSYLSM23ESbZAFmIDQm2AZ89yrt39yiOok7cSEtrVZAYLDoRMB1j54apAfE2KfC/j8NGLwZ2+9xpPENKlFvTEIHHbcPvi51PLgAWTxpX5loD5csLdZcOKU5wP4l2MtbJGeTrwCcVexXeUakfRrALFj4tzS87391KMCP5iXz7yGIyZ/hLc1hJ7AYOwsQIZx3Zhi3j986fV/fVa14hhZNgxovVJ+GZI55rjS2/JaDWAI5YshafkyF3apCFSMctzZUOi7fgUFFwejRmfNMZxXt7ENRCXqXnbqkaGuYmuI7DDWaf6PT3MeZeHbZ685agySolljcBhv/yQtzC0KaASvGN6JAIPlRstXTQhnE3C91QtzVEl9nplyy0BzHL7w0AuFukK75Lrkuqtrj2qiQNIrbDvjAXm41efFizD0SFhWyb9jfBvYIs+9RyzSz7Ao51x+ha3oM4C7pljV3S3T7lXjvzjIvXGBQvxg+wXW0OvjluN9FxEK4Dv1GmRZJeW/1+Gdsy8G/znAwFcvHMdFmaxpzo8lNfcBj8AVDU7WqQ1xLvwsBvkJpn+08jBHQqVSgALDZECnhU0K7pr6Lt0njYq3vBOnExbbEY+grguXmm9j64XaYrpNKXgAdlyLcadxeIEXv3dHnSA1xmSeaV0riDwI6TBWp5vLYCuYxxIKOnIsD2nGYGdqs//uWCjG3QCB+ch+uUY0MrKynE0xVHC1iRvMV5rNi82nmkNlZsaFmk0tkKdIvcrfDviXTlj83q5lvHj6tmsE9jerNFZb/V1xuU4JZ18JYl747nlVVKrBkHgHazBd68fSSxP8/a+C5u2J3IciLWt2GMh+ninu3uyYV+wC/oHh5FRVYym+vj1RgDsDkw549J3bbQTeA9e/f/zRx3DXSisqa7dbA6EtAXcX/sutB2xbnZiDQaG11MFMpD36oHzv9wvIYjOLw6wxuhn88JZHVC76QtUV9sMXxDU2tznnfBotB9Y2iyKOcUhnCGllOi/05v/+vebXi9yZJ0wpbFW/HAsBEBEiv/QjU4Svv0uwaAacxdG+h26CherTwgIUw4PKZCToUm1gkhgdWjnzNJaZhpPioYtY8rmysHAmcCo/CsvTOqRjRq1tMskAPlXGwYLQ49JhM9IsRcunhP4pnM7U9v0v2D3u+YF4Es5uGx42uT3Kvnqrriw2ulYH3jehsoj7ysD9BpJP/uc2FiQPQcFB8ljtpCz+AR/sNnu1yko/XkDwKaECQTX4JkVsd2hIWYYDXSN9Kb3qeKO6A82J+KiQ98ndrr/I6PRBLEXo8dhoW7IbxeA4jvuuWwR31gGzlpJBBAHIsQXeemoIasn31z6w0rVC9J+Ox9hNGtbwFYP0wpn4lQ7BMRNSCIbFXLc6F9YuCI/oCGIL0mzswE6i8xK7FmwYvjAfrqOtZ78eXHnPQN1VFChq1g0afdhYtxzeQxEDxqmSZ+fjGa3nbxaXAetixjEUsVkNch4no6cPnpCTXhqFW2ysK+So0q5gGOtCFRSfJwC4KcwdYAOinR2RoCfT61OquqPmta7E6oTyUOhlSnh2PQVy3TVhA64J+9QmFMoQcPL3qNBwrZtCUJtw3djBI+qSF69vbzWvtBQSUX8HFPkydEOkUJuWofcrUVqkSJ85hGqr59Dytknu0EMuTvlPiI6a6+nS/gcBQqYpsSG+itnJ+BD3bJgB9yFzSHVuegXho39rAG2w83UtnLBH5YcRcHV2LKSj+hF/IoP+LSaC5TW2JW0OTDL3iaMK35T+GJ4Ui1dxLvDbamabptGguQNp9KOERtabn97rq030MsiWsrL0z+1c8e93xNn4jkbqZ/X6k+bEBOElnAYyGgCskl0wV1rust2xVYHw5Wu2lia2varbfsLsEf7blqDzcrL0YPHaozLiOj4G0+wYIOP4dC41ficHGFJA/HXk+us71+F/6XMOl7bMWieOzM5wuZ4yteaZl0pn8CHXdUlE66aTMsQJS8AUwsqJsCg/pc7p/rZgG816u+wXdE9cu0P1Kug7KvcteiTtdnrXQ+oo11Ynr6S2Mb+s4XkCQR5Jc5PyaSq1MyYj0um/L7yyaXDYfdRNFqKj7LhJnpT+fpfTfxfaPZQ7ed/PiARLsA8j/pO7yEkNDKN+mWOiMis4X9grJHYVciuCh9CtROdkhNJQ9Ej7ZRzEKiSSmnBXC6nre+GUOKJNk5/vjNeGs8hJtMmkX6c6vxQ6UqODejoFzPYnT8r0MVK12KlNqFoRfniNXBJMxC5pQpGO1b0qV75kVJrEsH4q0m2+pSYcP+VYbrrO7vH3s9JCjxfJr8/Z58wkKF40ZrzRnBxzdA6HE5yCUj7c11ga476Q8V46qyrqb2uZ8TbUH5c78DCASVDbiwhdicp4PpKvtqDi7l0kSARVxsChoxFOnMHuprbEx8qMtaBJsb6UvoEIXGsDUgvpPZFTxq0N6JPKPPTlXhhTe+EZ7VJIxRyEgQ13KD7viV3+MUv1T+y18RA2BenBNL9SYVV/MOhXwEIL0YtZKrsA5sSXZAB7M3U8xQJldh2lnFx7kca/dMiacX1wBNVj9elzxXvWuZSYuwg5yBpEkixieE0cxB+kyOrZHJLu5SyvJDAe57h3pTrgLnSpYTURt8rpomxYCHkkVK+wLTN2sYpCoKZUms3VR0BM5KaXu6h+Di/h/1rCJjggnOV44Nep58tECNO96bq3KNepDF0osQkBR7f7pwS66ghaAsGHXFNoqX5kXxkyOtG7Vs+5tXey5aQc+/qJuSVgiT1gWYUl4xKzv3Km85EwP7U3mCCSTNrTzUi7p/EmKlmtMSfLEmjF9I77KTdtYRLatsmmhxlJycprtKI7spOx3ORWc7f+lUwP1FlCdrftYuvRizPe7jzFw5tS7Ib6Y6eybTRPyBrn4ZB8FirmwP3H0Dc9hdC95ucOGVzl5ALP/PrGXyc2rEoz1jI5LpXRTDqJIOdfAl71N3WWNNh1hxNVJcKibBq74x/snwNBDBYHe0KNDCGb3ev37TxEkm6LGiZiXIfkAAmC+wpZSuKCgBHFuaw9ZZdrowd+pj1Mmth5+MoK3OZzMV4P/3dVuD5SB9oW+gJ0a6gTtFtjFgkNR2cRzaSouvWOqPgIBjHj7n2z+TFsHSLYdJNiGvcDhcR+AKGqHMymV+xW+PDMQsy21N9BgW1J0il5Dv+BgDHOEN4u0Dc+XAXjtgNsZPxju48w7Ny7B+QkHPdP6QGXPrAU+53ZKtIJJWTVipkyEKPL62tL1BoQ2RpA8z3q6+bCF+YwBC5/4736/TpV5XTvGRElfUiysm5VzVw8glYI3la8IkO2KRZCOAbzgRbnlM03njHnG1gGMYY0kq98mAj+hf7UXyL2THhlQF6b0GVqQTUZ4TfKdF45f++nUcLXV0AhsTq7W4Wmy+s1NU4Zhtb7PB1FHQcqQlNvyQx/Y6F7K3dYhsFrol6WPZYY9O/6XH+Lz4lSf7i7YorOO9J8YL3bypFSwtqxqhZW8ZBjXL4beE7VULamdhExDrHvAfES0foiNKTclRMzvi0+PB+T8HQ+nlMiq/Ys9I4U9ZBeoa0MvIluP1rcqsi2651gS+/oGDtlOZSw1oKvICLQPxyXwoWdkLDb1Vcte6Sr4TVOPKF8ZJnc4ujzRwwPhutMEby982qrbSAnEvFV3adTWiHlwBucjfoS6CVOPGcTM+tWbiaXlIaZZAW4vxhhWMI5MNmtKZUXHoRapBpgHLfJASED+zvWVBVRXsI0/MSmhR3PVZ4eUiIUU2y4+VnOvLCMBDbDfUXLGqgvB9MWLvFrSSiTK6BPuW3ilVCtbL3tmCVPZ6QnhRHfoj8wG2zWKf1B1sKW4lhedUg4zQe+YpSh0FVo49S72wSJROwxTbNnWnm5zLmAMBjbe2L7e9G/ycQLE7SqCnrwvndD4O380JrMlPQ8Y6txb4N7Em+rQ4JGwYGlnTywozWNLy9nm6MOihEcqGtF0TVCiybF94glkM6vtvi6OvQ9UNqX+prjvs2/cqe9BH1qNz4SIjW7skREgrh6leqI3SXHOJIhMG3sUn0RXhXxcpqxJS0Dj+62RYTG5I2+HeTAqyhyYSF+5pu0lDxqioGx5Lk2Oyvkeuz0qfURzoopSfuvMXUA7wgDUl7MMbXOzL+dhdEu0SX3XrUWmk73zAaNlConMUOlnIF+UT/JcbdZuECKGwIOkfT5JM1JshadxYJxDLWGFCGCINeZqhvQhT6+1L8PG51kL1N/YOzIDgx49V6gFPAga5vVI5NlML9kn62C2Ic0rFeE9oTtaFtg31GfWkR6OKNmLNbeDErvbB/cZ1BZ+EdZfz1akShjecmzXD1r+1B0EmDH0i066I5Q2DQsAeeIxuMepmn/OQe8p//WdnwJcrQz5Xj7VCBNTlkhFMJ4ZTofooJNxFAEV6Bwvxvi/+6c5J0AQ5qjNnLLGoq0V9uEb8filYOaIc8LGqbct8o+PenZEeelRFLUps31glPuK5OUBlD8frl/t+Qj+wWixh0Wf633cN+dgGNVyzcLwMN+RrCKy/10LkAPte07M4RijZDPFcSLU2dWZaxTxZwRrwuKuCCaxG3uUm1vPk9mc6dNE03mud55g58AJXuplg9GsDTZLJg0pu9K60Qn0wZbmRARJ/nhXYo9jhNqC8xxj0FO5DgZuB0ySP+/SAxaPRYzFv+s/eQTHtgfWBaELmk6pLFjqZEfVviubCMt4mOcU2z8kMAjkv95uXMHSgNbRVPzaH9cNKKieQw4NBp3aSeEAbPaT5SaTlf+vrmWkx9U7mRJbu5z//1dWH1FyfcqMrRh9twA17xTbVdOWql7744soQhZrdSzcMTVeilmYGlznVld+uV+gkS0fkY9cBc4eebKlLJC4e81xC0kBzK0khDROwR4yHqhBkL+j8lNdcWu7NK2twrEZ9U7Rpeo0JUjWqAwNt0CW7RGi1DrGQWVPqcqzVI1p2q5hn1hw/Q5Hn3r5HUA0Huz0+pPZf8lr1lREYkX6ioudPW3AIHFtax4SVwASaprsWOgujY9o0UONIb7D63tUosN1TOFBWxyZPVKlkNWFQw5BIjb8v9DQ3mOYG8OJkSt7xnpqwpccByE0fbKNYmDegmK/DZI2Q3kM+qBizlYhORJ4t8r+2/1Z/u0hg9G1gxZqmW6eyMvEY+6VGmKdu3AFsGuuEz4CF0f1gbOpqvPJ1QGta8zdMbkM3OrcajUefpBmiiR+Pbx7yADVasJdvfxvxhHN7xMVNsmdsH01+zM1yCxKBLe54WpmhCVaY9ufDPg+9ta63iNSDC/umEri/1fUORwXuwljBA4AtduUnls+/az2NT4FqDwQOZpzWOUL8YBzcoHt+cIoGtn1yV9kmyCzGkx+5eFvRfFOXlABXB2piiTrnSI97Iis4wgqI50uJgyn6n6cEbW3neQZa4OcxH17QLDFRG4thZI8aaEuOA06uhptYkwzmJS7V7tGoQlwqtXyc+081SWynotisAVKPxsH0ORYFL5XAwPbr05xgnUuwKIZixpZYb4Z/trtpmEyITMBNtnah0nOa1fSEUHDQAYUv/eumZ6eF8MPr0q7iqj9OB0z6K+e74qaEw01ECC9rNPIaCCv6SXfC3dii8SAGQ6i7xNFwdaaGmCJU4gvFZ0P2haZC51weEB0n09VtXeC3ZZ3BL9OvqYHdOhFzbeZf3vI1Oy2/25Y+DpYqOoHCwaJ+pQSQdaeo3djUHZ5In3kyqliyiMru8aCWVwo+4HdW4KJMPJyy3TmuzmLvpqIuJ38g2YatsRDcV6h82u77fq+My2SckznikL+lmXPd2h55UK/9/6Vvf9a7s4li5r83caiyyBqylz2OmcfyTw28M2HZqzpLK3Xwo13UbdzzTA1hT5LFmqFimpENs9c+mg1nixQ+Y9IEky+fl7llhuak8uvN2kp+kEfAPMUdYedTbAKalVpSSMRz6jSQEvtCnGAf2r2pT6nEJfJgheJBAWNaVfnrkYCCsBzMXvTikIEvTZzlBP7bj28v+WCdx4QyJp9mmB67iIKmPualCYwHanRvqpayh0bsdVG7OOj8ZLUN56LJrsagtdCPDwjazQJ1Jhmjsp9tO8phcUg5y1b7NfTnMghleKMykXyMDa8LJnzxhtqBsnw9ZUkoCOHc3HAnIrwbeIeCD3M3Izi0rSSbmOLIrM/jbzgoVwOdR0tR+zw0WNLfgpUxxLvzG43U4spv0B5UaZwlu7pAvy4ML72QKqbiicspvAOtP13yvkjNPTutByNlycDWSKOHdoqX/4vhnnyhV/Vx5KsJJzG/31E6D5RYUOacEtJWKycVHLRc1JiypWtqkYVL3WwmAr4Uxwoul2VcMAgAZIkyIXF66dThZWh+o3YpXzN16gMAXliDJ62tVz0RBgvBqv5bvTMHdwdPOzgUAUOyOJTw/hINXiCfod06kxjc7ejWummMw5qZEKTt2l8ZJKo4Zg0nWQAzxxbgZNGJt/+9YrxAvqycy7N/4hCg94usCO/Uoi5cy9H1z0F5zHzHjcMUr1kDIwwtjUEGmVzV+ZJ0rEUN5cCr+ZmDmM5fSHRDbvWCNmuUlXmxA4cveqAnEnGbN02fyx/rDtij/WXJq94kzr1QYGsW/2OZrg6lWSe3ZtNJDQPNqsBH1jEuMbC1uCl39APllPpg0ldijDJtRo+UP4k23txs4EEE74tyCjqPy37EitVyvjdADe0UjrWLyXf2hGar67T6Zr/fV9bSFMQhGfKt7ZbrDKKnAsyb3qCgTwDro/MC2lTmGHXn7pv6M+7w6ep1lcKLGZWebEWsXV4Wf8mzSjX5rkoHz9Xlvbk0EPucwEfi+5LI4XgZkoSnJ0bablBbn0hi33aaFxuh6viJGoeXpqrdjQjpf5FIftGO3xSS+jhqSZdJRowpSxvCB0eCYJjKX50CK2byrYVk3P2jegepm9MEofFHWwt1BApYuYKCpRid6MSiC0NCI/KAHBx5rt7fOeMNCAVoCyuTrRkdtgaPvR7kdT2p+DtW5hzwH3EUVwCklh6ydiOMMh2hlspA7iWew8hcUdVcWApDN4P/nMhc3Y+Dm7GTWwrSt+NUh+zhdB/+PQI3fmewUx3L3MSs9/ktK0WheyDXIR3HKQd6eHBraMP8qmusu8E82NhOdTtWApb5VhWM6yGhZAYPYRQ1twJ2c/1veUYcZN9ePrBcnUGt5T6BHskwmoXKF1wZs7V3LfN0HjJdTcW5tGX0HBnrzgWzuDMq+XtoGxcOToK49u4XOU4AwOm1/d76fLhNu+26bOfv0PSh5+Jkw+K97P8u60hQ0XiMcsYCuPO4KOOXhKKnTW20AY8KzAjsh5skZ5AZXhmGYjZQE+XbqPBhyPUtexl4gyolzOGUxY362MzZNqqo+Jcpb+ApyVKT7hx6J1fqdlThxoIat+E1MNYFGf6UaEvvemYYoRrvq4L7qNKs0THG1EB23808BQOTXrfS+pAgO8iJyRkaAoJ9Z4k7VtR4gLiTgHc4vMyqpJ2LWsyoI/te3ceillMZJn6O82dRhhXlEsd833+L0jPkqX/BR9IvnbOzL/DY/Pp+eO2CN609rTgl4K5bqleuO+rUSJqa430JJLNPQK4roCumNp5eo9KLHdO0HYo5o2LoGZ0tXpHz3uxRrBX9D91QI3Om7AvpyEzJPTmv6K0QgWzTBTy/gQch8f27R1aVeHloNxW4tqfs4ROYoPGHm0Ht9JHveyGTJjBlTjzZcsMRam/bKMVBddxUPWVd/9uu8N1M9SAyaPzVsAINkZfRI8NPEzr0/NwAHqflQkfTXU+6S0JOVrx341Rc+SN6izcYJKmHepwedclaNZaUuoBIWHbp57DfE/Tz+aELlIT0DvtdlyworRb/M+gfuTnSbQDYB02+jV3IKuG/T3RrkiPq9oWEHJ5eBjeB1IlkZvIQGCKoPU2w7kj7huCDjwDr+AAgZfogIxt7Y+zzpB1U6YjYMetoEQoQcAQkOjlXIxrroFJrrbJ/hLt04tuxjfpMsRLiiLTFhdPE49zCF54azAOfdyXs6GMk9zonOZvsGQxHC/DUeqUvKxvdL+aKxCQ1ha0431sLdTF6zZjFzu+AZA0k67yg1fZ4vUYMSRNuqTbT8GeGI1zj5oa3jAAGAfHn5Zrxf1vU03vHdP58dCymlJA9nEf+PMdzEqlWpFvDiwojnkZCeN92adKbxa4o2IdaGnhS2+TdnUNyPU67MWe77FIduJvC/RNYzpV1/+FAAD0aS34A1irrxdiDohaBaiQ9yTGDdUSIx2SMbdFoL1+qbMUkhJpUON7tk0Ytz/ucnhABXYk9IpyHms1mhwqVb4wVomocgI2OmQd/4O+niWmE6OzL6S9l9EmAoLMv3RO9TorHt4ZZbu2DvI5YOatIct4vmmKBx+KFoVMPZ1ntkNq6uS2Qd7ImrYXpp3bNe7jDa/yQkAtkGyxpffDMT9dgpoOgDyqL8DlaEriJctWHi9UEC8Bg==" />
+
+</div>
+
+
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+var theForm = document.forms['form1'];
+
+if (!theForm) {
+
+    theForm = document.form1;
+
+}
+
+function __doPostBack(eventTarget, eventArgument) {
+
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+
+        theForm.__EVENTTARGET.value = eventTarget;
+
+        theForm.__EVENTARGUMENT.value = eventArgument;
+
+        theForm.submit();
+
+    }
+
+}
+
+//]]>
+
+</script>
+
+
+
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZFlmnP5MPfeh84pCTjM6rVPXsUfwaz9wVl7Y4zdLQPlDjbsSTag34_OYyv2WKKKWpQ2&amp;t=636511232826842555" type="text/javascript"></script>
+
+
+
+
+
+<script src="/ScriptResource.axd?d=OXeogLERm3m7Yift4fY7x_dseQZDieidN5hL9H_DpSRhlXkCvGCmgw6rdvrmc37XsPu6JjDBbyLGS2xT1dFRAewuJRx2wcyxfbDy7-VPl93r63go7EZKzjVfKfKn63uRHot3m77MbiCD2h8YfemocK3JJlakpQp2BqY_bzQG5NY1&amp;t=ffffffffad4b7194" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+if (typeof(Sys) === 'undefined') throw new Error('Error al cargar el marco de trabajo de cliente ASP.NET Ajax.');
+
+//]]>
+
+</script>
+
+
+
+<script src="/ScriptResource.axd?d=8niB3GkKmp7h1ttGRLQ3-NzfzHlAcW3hE8P8XWHSezrA2V4nOz689gY71yPGRvBXn8TzqNiguLrHV92G8vl7nEjZLqpbcko-XyMTdNhb1J3EVM3tTdV7GrCdehHNnSBrhz4lKOT3nYiaqo-PMRPmMA8sKeFnRTx8Y5e0WUW5GWgER4wOWG3DIzxuf5Be63SJ0&amp;t=ffffffffad4b7194" type="text/javascript"></script>
+
+<div class="aspNetHidden">
+
+
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="15B1ABDF" />
+
+</div>
+
+        <script type="text/javascript">
+
+//<![CDATA[
+
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+
+//]]>
+
+</script>
+
+
+
+    <div style="margin:0; padding:0; width:100%;   ">
+
+        
+
+    
+
+      <div id="slider" >
+
+   <div class="slider-container" > 
+
+      
+
+              <img id="ContentPlaceHolder1_rptSlider_imgSilder_0" class="imageMainSlider" src="../Images/banner-principal1.jpg" />
+
+          
+
+   </div>
+
+  </div>
+
+
+
+    <div class="content-principal-paginas" >
+
+        
+
+        <div class="content-titulo-paginas" >
+
+            <span id="ContentPlaceHolder1_lblTitulo" style="font-size:25px;font-weight:bold;">Biblioteca</span>
+
+        </div>
+
+
+
+        <div class="post-container" >
+
+        <div style="text-align:left; margin-right:2px; position:relative; ">        
+
+        </div>
+
+ 
+
+    <div style="text-align:justify; position:relative; background-color:white; " class="cuerpo-articulo" >
+
+        <div class="content-left">
+
+<p><strong>Misi&oacute;n</strong></p>
+
+<p style="text-align: justify;">Brindar servicios de informaci&oacute;n bibliohemerogr&aacute;fica y especializada a todos los alumnos, personal docente y administrativo de la Universidad Tecnol&oacute;gica de Quer&eacute;taro, as&iacute; como usuarios externos, que solicitan informaci&oacute;n, para el apoyo de la ense&ntilde;anza y el aprendizaje colaborando en la formaci&oacute;n integral de los mismos.</p>
+
+<p>&nbsp;</p>
+
+<p>Horario de &nbsp;servicio: 7:00 a 22:00 hrs. de Lunes a Viernes</p>
+
+<div>&nbsp;</div>
+
+<div><strong>Acervos Impresos</strong></div>
+
+<div>&nbsp;</div>
+
+<div>
+
+<p>ACERVO BIBLIOGR&Aacute;FICO:</p>
+
+<ul class="listaCarreras">
+
+<li><a>31,098 VOLUMENES </a></li>
+
+<li><a>11,508 TITULOS</a></li>
+
+<li>&Aacute;REAS DE CONOCIMIENTO: CIENCIAS SOCIALES Y ADMINISTRATIVAS, INGENIER&Iacute;A Y TECNOLOG&Iacute;A, CIENCIAS NATURALES Y EXACTAS, EDUCACI&Oacute;N Y HUMANIDADES.</li>
+
+</ul>
+
+<p>&nbsp;</p>
+
+<p>ACERVO HEMEROGR&Aacute;FICO:</p>
+
+<ul>
+
+<li><a>193 T&Iacute;TULOS DE REVISTAS IMPRESAS Y CONSULTA DE PERI&Oacute;DICOS POR SUSCRIPCI&Oacute;N TANTO LOCALES COMO NACIONALES.</a></li>
+
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>Cat&aacute;logo en l&iacute;nea</strong></p>
+
+<ul>
+
+<li><a href="../Alumno/Default.aspx?gI2Sr=87" target="_blank">Cat&aacute;logo al P&uacute;blico</a></li>
+
+<li>BOLET&Iacute;N DE NOVEDADES</li>
+
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>Servicios que se ofrecen</strong>&nbsp;</p>
+
+</div>
+
+<div>
+
+<ul class="listaCarreras">
+
+<li>SERVICIO DE CONSULTA EN SALA</li>
+
+<li>PRESTAMO DE LIBROS POR HORAS, A DOMICILIO E INTERBIBLIOTECARIO (POR CONVENIO CON LAS INSTITUCIONES PERTENECIENTES A LA RESIEQ Y REBICS-ANUIES)</li>
+
+<li>HEMEROTECA</li>
+
+<li>SALA DE PROYECCION, DE CAPACITACION Y DE TRABAJO EN EQUIPO</li>
+
+<li>SERVICIO DE FOTOCOPIADORA</li>
+
+<li>SERVICIO DE LOCKER, USO PERSONAL AL CONSULTAR EN SALA</li>
+
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>Organizaciones Bibliotecarias en las que se Participa</strong></p>
+
+<p>&nbsp;</p>
+
+</div>
+
+<div style="text-align: justify;">
+
+<p>ORGANIZACIONES BIBLIOTECARIAS</p>
+
+<ul class="listaCarreras">
+
+<li><a href="http://www.resieq.org" target="_blank"><strong>RESIEQ</strong> (Red de Especialistas en Sistemas de Informaci&oacute;n del Estado de Quer&eacute;taro, A.C.)</a></li>
+
+</ul>
+
+<p class="textojustifcado" style="text-align: justify;">Red de Especialistas en Sistemas de Informaci&oacute;n del Estado de Quer&eacute;taro, A.C., es una Asociaci&oacute;n Civil sin fines de lucro y de &aacute;mbito estatal, con car&aacute;cter plural, cooperativa, equitativa y no coercitiva. Tiene como objetivo contribuir al desarrollo educativo, cient&iacute;fico, tecnol&oacute;gico y social del Estado de Quer&eacute;taro a trav&eacute;s de la participaci&oacute;n de los especialistas en sistemas de informaci&oacute;n documental existente en la Regi&oacute;n, apoyados en acciones de cooperaci&oacute;n para el beneficio de las instituciones representadas en la Red.<a href="http://www.resieq.org" target="_blank"><strong>www.resieq.org</strong></a></p>
+
+<br /> <br />
+
+<ul class="listaCarreras">
+
+<li><a href="http://dgsa.uaeh.edu.mx/REBICS/index.html" target="_blank"><strong>REBICS-ANUIES</strong></a></li>
+
+</ul>
+
+La REBICS es una red de colaboraci&oacute;n entre Bibliotecas de Instituciones de Educaci&oacute;n Superior tanto p&uacute;blicas como privadas que pertenezcan a la Asociaci&oacute;n Nacional de Universidades e Instituciones de Educaci&oacute;n Superior de la Rep&uacute;blica Mexicana A.C. (ANUIES), la cual es una asociaci&oacute;n no gubernamental, de car&aacute;cter plural, que congrega a las principales instituciones de educaci&oacute;n superior del pa&iacute;s, tanto p&uacute;blicas como particulares, cuyo objetivo en com&uacute;n es promover el mejoramiento integral en los campos de la docencia, la investigaci&oacute;n y la extensi&oacute;n de la cultura y los servicios. <a href="http://dgsa.uaeh.edu.mx/REBICS/index.html" target="_blank"><strong>dgsa.uaeh.edu.mx</strong> </a></div>
+
+<div style="text-align: justify;">&nbsp;</div>
+
+<div style="text-align: justify;">&nbsp;</div>
+
+<div style="text-align: justify;">&nbsp;</div>
+
+<div style="text-align: justify;">&nbsp;&nbsp;</div>
+
+</div>
+
+<div class="content-left"><strong>RECURSOS ELECTRONICOS VIRTUALES</strong>
+
+<div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>RECURSOS ELECTRONICOS&nbsp;CONRICYT</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<ul class="listaCarreras">
+
+<li><a href="http://search.ebscohost.com/" target="_blank"><b>EBSCO:</b></a>
+
+<p>Es el mayor proveedor mundial, con m&aacute;s de 200 bases de datos a texto completo y secundarias. Con una biblioteca electr&oacute;nica de decenas de miles de revistas-e, publicaciones, informes y otras publicaciones a texto completo, EBSCO cubre todas las necesidades de informaci&oacute;n de un investigador.</p>
+
+</li>
+
+</ul>
+
+<p>&nbsp;</p>
+
+<ul class="listaCarreras">
+
+<li><a href="http://conricyt.cengage.com/e/?utqueqro" target="_blank"><b>CENGAGE:</b></a>
+
+<p>Es la mejor fuente de art&iacute;culos arbitrados en texto completo de revistas y fuentes de referencia l&iacute;deres. Con amplia cobertura en ciencias f&iacute;sicas, tecnolog&iacute;a, medicina, ciencias sociales, artes, teolog&iacute;a, literatura y otros temas, adem&aacute;s contiene una colecci&oacute;n multidisciplinaria provee material iberoamericano confiable de car&aacute;cter acad&eacute;mico, cient&iacute;fico y de inter&eacute;s general. Abarca temas tan variados como pol&iacute;tica, historia, econom&iacute;a, humanidades, ciencias de la salud, filosof&iacute;a, literatura, ciencia, tecnolog&iacute;a y m&aacute;s.</p>
+
+</li>
+
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>OTROS RECURSOS ELECTR&Oacute;NICOS</strong></p>
+
+<p>&nbsp;</p>
+
+<ul class="listaCarreras">
+
+<li><a href="http://www.bibliotechnia.com.mx/auth/exception_access/efFe3lx7NeMOv7jQ7ZW2!xkQmqpKa6f3oBs4pIiuQZw=" target="_blank"><b>Bibliotechnia:</b></a>
+
+<p>Aqu&iacute;&nbsp;se encuentran 286 t&iacute;tulos de libros a texto completo de diversas &aacute;reas del conocimiento, en la tem&aacute;tica de: administraci&oacute;n, matem&aacute;ticas, f&iacute;sica, c&aacute;lculo, &aacute;lgebra, electr&oacute;nica, TICS, ecolog&iacute;a, econom&iacute;a ambiental, procesos de manufactura, investigaci&oacute;n de operaciones mec&aacute;nica vectorial, etc.</p>
+
+</li>
+
+<li><a href="http://infotrac.galegroup.com/itweb/uteq?id=cengage2015" target="_blank"><b>Libros CENGAGE</b></a>
+
+<p>-Aqu&iacute; se pueden consultar t&iacute;tulos de libros a texto completo de las &aacute;reas medioambiental, ciencia y tecnolog&iacute;a.</p>
+
+</li>
+
+<li><a href="http://www.bibliotecaecest.mx/" target="_blank"><b>BIDIG-ECEST:</b> </a>
+
+<p>Contiene informaci&oacute;n documental y una gran variedad de libros, servicios bibliotecarios digitales que permitir&aacute;n mejorar las actividades sustantivas de las instituciones de educaci&oacute;n superior tecnol&oacute;gica y fomentar la investigaci&oacute;n, el aprendizaje y la formaci&oacute;n de los estudiantes reduciendo las barreras del tiempo y la distancia.</p>
+
+</li>
+
+<li><a href="http://www.cervantesvirtual.com/" target="_blank"><b>Biblioteca Virtual Miguel de Cervantes:</b></a>
+
+<p>Libre acceso a m&aacute;s de 140,000 registros bibliogr&aacute;ficos de texto, imagen, video, audio y formatos combinados.</p>
+
+</li>
+
+<li><a href="http://www.letrasmexicanas.mx/" target="_blank"><b>Biblioteca Virtual de Letras Mexicanas:</b></a>
+
+<p>Colaboran la Academia Mexicana de la Lengua, UNAM, Universidad Iberoamericana, El Colegio de M&eacute;xico, Universidad de Guadalajara.</p>
+
+</li>
+
+<li><a href="http://biblioteca.universia.net/"><b>Biblioteca de Recursos:</b></a>
+
+<p>Acceso y publicaci&oacute;n de recursos de aprendizaje en el repositorio digital recoge y da acceso a los recursos did&aacute;cticos y resultados de actividad cient&iacute;fica de calidad de las universidades m&aacute;s importantes del mundo.</p>
+
+</li>
+
+</ul>
+
+<p>&nbsp;&nbsp;</p>
+
+<p><span style="color: #ff0000;"><strong><a style="color: #ff0000; text-decoration: underline;" href="../files/ALERTA_No.3__2019.pdf" target="_blank">ALERTA No.3_ 2019.pdf</a></strong></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color: #ff0000; text-decoration: underline;"><strong><a style="color: #ff0000; text-decoration: underline;" href="../files/BOLETIN_1__2019.pdf" target="_blank">BOLETIN_NO._1__2019.pdf</a></strong></span></p>
+
+</div>
+
+</div>
+
+    </div>
+
+            <p>&nbsp;</p>
+
+         
+
+    </div>
+
+     <div  class="content-right" >
+
+     <div class="cabecera-listas">
+
+         <h3 >Alumno</h3>
+
+     </div>
+
+     <div style="margin-top:7px; min-height:600px;">
+
+
+
+            <div class="content-menu" id="accordion" >
+
+
+
+         <ul >
+
+                   <li>  
+
+                       <label  class="accordion-toggle" >Servicios Escolares</label>
+
+                       <div class="accordion-content">
+
+                           	<ul>               
+
+					<li><a id="ContentPlaceHolder1_hlReisncriociones" href="Default.aspx?gI2Sr=101">Reinscripción</a></li>
+
+                    <li><a id="ContentPlaceHolder1_hlReincorporacion" href="Default.aspx?gI2Sr=102">Reincorporación</a></li>
+
+			        <li><a id="ContentPlaceHolder1_hlTitTsu" href="Default.aspx?gI2Sr=192">Titulación TSU</a></li>
+
+                    <li><a id="ContentPlaceHolder1_hlTitIng" href="Default.aspx?gI2Sr=193">Titulación INGENIERÍAS</a></li>
+
+				    <li class="hide" ><a id="ContentPlaceHolder1_hlGuiasEstIng" href="Default.aspx?gI2Sr=55">Otros Servicios</a></li>
+
+                </ul>
+
+                           
+
+                       </div>
+
+                    </li>
+
+
+
+                 <li><a id="ContentPlaceHolder1_hlDeportivas" href="Default.aspx?gI2Sr=149">Actividades Deportivas</a></li>               
+
+				<li><a id="ContentPlaceHolder1_hlCulturales" href="Default.aspx?gI2Sr=150">Actividades Culturales</a></li> 
+
+                <li>
+
+
+
+
+
+                     <label  class="accordion-toggle" >Becas</label>
+
+                       <div class="accordion-content">
+
+                           	<ul>               
+
+					<li><a id="ContentPlaceHolder1_HyperLink25" href="Default.aspx?gI2Sr=118">Becas Instituacionales</a></li>
+
+                    <li><a id="ContentPlaceHolder1_HyperLink26" href="Default.aspx?gI2Sr=119">Becas Externas</a></li>
+
+                </ul>
+
+                           
+
+                       </div>
+
+
+
+
+
+
+
+                </li> 
+
+               <li><a id="ContentPlaceHolder1_hlMovilidad" href="Default.aspx?gI2Sr=121">Movilidad</a></li> 
+
+                <li><a id="ContentPlaceHolder1_hlEstadias" href="Default.aspx?gI2Sr=124">Estadías</a></li> 
+
+                <li><a id="ContentPlaceHolder1_hlVisitas" href="Default.aspx?gI2Sr=125">Visitas a Empresas</a></li> 
+
+               
+
+                <li><a id="ContentPlaceHolder1_hlRedJusticiaPaz" href="Default.aspx?gI2Sr=128">Red de Justicia y Paz</a></li>                    
+
+                <li><a id="ContentPlaceHolder1_hlReglamentos" href="Default.aspx?gI2Sr=103">Reglamentos</a>
+
+                </li>
+
+
+
+                     <li><a id="ContentPlaceHolder1_hlCalendario" href="Default.aspx?gI2Sr=60">Calendario</a></li>               
+
+				<li><a id="ContentPlaceHolder1_hlServicioSocial" href="Default.aspx?gI2Sr=127">Servicio Social</a></li> 
+
+
+
+                <li><a id="ContentPlaceHolder1_hlIdiomas" href="../Sitios/Idiomas.aspx">Idiomas</a></li> 
+
+                  <li><a id="ContentPlaceHolder1_HyperLink5" href="Default.aspx?gI2Sr=232">Biblioteca</a></li>         			
+
+				</ul>
+
+         
+
+         </div>
+
+         
+
+
+
+     </div>     
+
+     </div>
+
+    </div>
+
+
+
+
+
+         </div>
+
+       
+
+    </form>
+
+     <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <div class="content-logos" >          
+
+         <div class="content-logos-inner" >
+
+            
+
+              <div class="logos-left" >
+
+               
+
+              </div>
+
+              <div class="logos-center"  >
+
+               
+
+                  <a href="http://www.queretaro.gob.mx/" target="_blank"><img alt="logos" src="../Images/logos2.jpg" style="width:520px;" /></a>
+
+              </div>
+
+              <div class="logos-right" >
+
+
+
+
+
+                  <ul style="list-style:none; display:inline-flex; align-items:center;">
+
+                      <li style="padding-right:2px;"><label style="font-family:Arial, Helvetica, sans-serif; font-size:small;">Siguenos en:</label> </li>
+
+                    <li style="padding-right:5px;"> <a href="https://www.facebook.com/UTEQro/" target="_blank"><img src="../Images/facebook.png" style="width:25px;" /></a></li>
+
+                          <li style="padding-right:5px;"> <a href="http://www.youtube.com/user/UTEQro"  target="_blank"> <img src="../Images/youtube.png" style="width:25px;" /></a> </li>
+
+                      <li style="padding-right:5px;"> <a href="https://twitter.com/prensauteq"  target="_blank"> <img src="../Images/twitter.png" style="width:25px;" /></a> </li>
+
+                       <li style="padding-right:5px;"> <a href="https://issuu.com/uteqro"  target="_blank"> <img src="../Images/issu25.png" style="width:25px;" /></a> </li>
+
+                       <li style="padding-right:5px;"> <a href="https://www.instagram.com/uteq.prensa"  target="_blank"> <img src="../Images/instauteq.jpg" style="width:26px;" /></a> </li>
+
+                      </ul>
+
+              </div>
+
+          </div>
+
+             </div>
+
+
+
+
+
+     <div class="Spliter" >
+
+    </div>
+
+
+
+
+
+        <div style="background-color:rgb(82,83,81);"> 
+
+            <div style="max-width:1024px; margin:0 auto;" class="content-footer">
+
+            <div style=" padding:15px;" class="content-footer-inner">
+
+            <div style="width:200px; " class="footer-logo" >
+
+                <ul style="display:block;  list-style:none;">
+
+                    <li style="margin-bottom:5px;"><img src="../Images/Logo UTEQ blanco.png" width="150" /> </li>
+
+                                        
+
+
+
+                    <li >
+
+                    
+
+                          <img src="../Images/SGS_ISO_9001_round_TCL_HR.jpg" width="120" style="margin-top:5px; margin-left:15px;" />  
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+           <!-- <div style="width:200px;  " class="footer-clima" >
+
+                 <a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IQUERETA39"><img src="http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wxstnsticker_metric&weatherstationcount=IQROQUER3" height="160" width="160" border="0" alt="Weather Underground PWS IQUERETA39" /></a>
+
+            </div>-->
+
+            <div style="width:240px;" class="footer-contacto">
+
+                <ul class="listas-contacto" >
+
+                 
+
+                     <li style=" vertical-align:middle; height:50px;">
+
+                         <span style="color:white;">Contacto:</span>
+
+                         <br /> 
+
+                         <div style="padding-top:3px;"><a style="cursor:none;"><img src="../Images/tel.png" width="15" /> (442) 2 09 61 00</a> 
+
+                        
+
+                     </li>
+
+              
+
+                    <li><span style="color:white;">Ubicación:</span><br /> <div style="padding-top:7px; padding-left:30px;"> <a href="https://www.google.com.mx/maps/place/Universidad+Tecnol%C3%B3gica+de+Quer%C3%A9taro/@20.6532636,-100.4043203,15z/data=!4m5!3m4!1s0x0:0xd927286fe3c75218!8m2!3d20.6532636!4d-100.4043203" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../Images/ubicacion.png" style="height:30px;width:30px;" />  </a></div> </li>
+
+                </ul>
+
+            </div>
+
+            <div style="width:25%;" class="footer-gob">
+
+
+
+                 <ul class="listas-contacto">
+
+                  <li style="margin:0px;"><a href="http://www.uteq.edu.mx/ConoceLaUTEQ/Default.aspx?gXr=244" target="_blank">Proveedores</a></li>    
+
+                  <li><a href="https://www.queretaro.gob.mx" target="_blank">Portal del Poder ejecutivo del Estado de Querétaro</a></li>
+
+                  <li><a href="http://cgutyp.sep.gob.mx/" target="_blank">Coordinación General de Universidades Tecnológicas y Politécnicas</a></li> 
+
+                  <li style="list-style:none"><a href="../ConoceLaUTEQ/Default.aspx?gXr=220" ><img src="../Images/Logotipo%20de%20CS%202020.jpg" width="145" /></a></li>   
+
+                 </ul>  
+
+                  
+
+            </div>
+
+            <div style="width:25%;" class="footer-gobmx">
+
+                <ul class="listas-contacto">
+
+                  <li style="margin:0px;"><a href="http://idiomas.uteq.edu.mx/" target="_blank">Portal de Alumnos de Idiomas (PAI)</a></li>
+
+                  <li style="margin:0px;"><a href="http://ebc.uteq.edu.mx/" target="_blank">Sistema de Educación Basada en Competencias (EBC)</a></li>
+
+                  <li style="margin:0px;"><a href="https://www.uteq.edu.mx/ConoceLaUTEQ/Default.aspx?gXr=206" target="_blank">Sistema Formato  Único en el Portal Aplicativo de la Secretaría de Hacienda (PASH), FAM</a></li>
+
+                   <li style="margin:0px;"><a href="https://www.uteq.edu.mx/ConoceLaUTEQ/Default.aspx?gXr=226" target="_blank">Sistema de Recursos Federales Transferidos (SRFT)</a></li>
+
+                  <li style="margin:0px; list-style:none;"><a href="https://www.gob.mx/" target="_blank"><img src="https://www.gob.mx/assets/gobmxlogo.svg" /></a></li>
+
+                  </ul>
+
+            </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+            </div>
+
+    </div>
+
+   
+
+</body>
+
+</html>
